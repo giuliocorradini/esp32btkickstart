@@ -32,3 +32,14 @@ dell'ESP32 a 115200 con l'istruzione `monitor_speed = 115200`
 Cambia il nome del dispositivo, ed eventualmente della porta seriale virtuale, modificando le macro
 all'inizio del programma.
 
+## Riferimenti
+
+Per la produzione del codice è stata seguita la API Reference del framework ESP-IDF,
+la Hardware Reference di ESP32 e gli esempi forniti con il framework.
+
+[SPP API - ESP-IDF Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/bluetooth/esp_spp.html)
+
+[Esempi con protocollo SPP](https://github.com/espressif/esp-idf/tree/178b122c145c19e94ac896197a3a4a9d379cd618/examples/bluetooth/bluedroid/classic_bt/bt_spp_acceptor)
+
+[ESP32 Hardware Reference](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
+
